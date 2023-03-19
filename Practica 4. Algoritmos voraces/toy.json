@@ -1,0 +1,102 @@
+{
+  "sopas": [
+    {
+      "nombre": "Caldo de pollo",
+      "coste": 1,
+      "popularidad": {
+        "El pintor": 2,
+        "Bar Casa Lolo": 7,
+        "Villa López": 1,
+        "Osos pardos": 4
+      }
+    },
+    {
+      "nombre": "Sopa de pescado",
+      "coste": 2,
+      "popularidad": {
+        "El pintor": 3,
+        "Bar Casa Lolo": 8,
+        "Villa López": 4,
+        "Osos pardos": 1
+      }
+    },
+    {
+      "nombre": "Estofado de verduras",
+      "coste": 3,
+      "popularidad": {
+        "El pintor": 6,
+        "Bar Casa Lolo": 2,
+        "Villa López": 18,
+        "Osos pardos": 8
+      }
+    },
+    {
+      "nombre": "Sopa de ajo",
+      "coste": 4,
+      "popularidad": {
+        "El pintor": 4,
+        "Bar Casa Lolo": 1,
+        "Villa López": 6, 
+        "Osos pardos": 10
+      }
+    },
+    {
+      "nombre": "Sopa de castañas",
+      "coste": 5,
+      "popularidad": {
+        "El pintor": 6,
+        "Bar Casa Lolo": 1,
+        "Villa López": 6,
+        "Osos pardos": 10
+      }
+    }
+  ],
+  "restaurantes": [
+    {
+      "identificador": 1,
+      "nombre": "El pintor",
+      "presupuesto": 10
+    },
+    {
+      "identificador": 2,
+      "nombre": "Bar Casa Lolo",
+      "presupuesto": 25
+    },
+    {
+      "identificador": 3,
+      "nombre": "Villa López",
+      "presupuesto": 15
+    },
+    {
+      "identificador": 4,
+      "nombre": "Osos pardos",
+      "presupuesto": 20
+    }
+  ],
+  "carreteras": {
+    "Briviesca": {
+      "Briviesca": 0,
+      "Villarcayo": 10,
+      "Villadiego": 20,
+      "Medina de Pomar": 30
+    },
+    "Villarcayo": {
+      "Briviesca": 10,
+      "Villarcayo": 0,
+      "Villadiego": 10,
+      "Medina de Pomar": 20
+    },
+    "Villadiego": {
+      "Briviesca": 20,
+      "Villarcayo": 10,
+      "Villadiego": 0,
+      "Medina de Pomar": 10
+    },
+    "Medina de Pomar": {
+      "Briviesca": 30,
+      "Villarcayo": 20,
+      "Villadiego": 10,
+      "Medina de Pomar": 0
+    }
+  }
+}
